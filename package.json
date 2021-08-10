@@ -1,0 +1,23 @@
+{
+  "name": "yjs-initial-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript/app.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "y-protocols": "^1.0.5",
+    "y-websocket": "^1.3.16",
+    "yjs": "^13.5.12"
+  },
+  "devDependencies": {
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "y-webrtc": "^10.2.0"
+  }
+}
