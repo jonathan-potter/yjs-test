@@ -4,7 +4,8 @@
   "description": "",
   "main": "javascript/app.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer"
+    "start": "yarn webpack serve",
+    "start-server": "HOST=localhost PORT=1234 yarn y-websocket-server"
   },
   "author": "",
   "license": "ISC",
